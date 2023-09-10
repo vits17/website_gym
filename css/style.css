@@ -105,4 +105,14 @@ body{
     margin: auto;
  
   }
-  
+  @media screen and (max-width:600px) {
+   .header{
+      display: flex;
+      flex-direction: column;
+   }
+   .left{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+  }
