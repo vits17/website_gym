@@ -1,3 +1,24 @@
-body{
-    background-color: red;
+@media screen and (max-width:600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .form-group input {
+        /*margin: 13px auto;*/
+        text-align: center;
+        display: block;
+        width: 248px;
+        padding: 1px;
+        border: 1px solid rgb(232, 33, 66);
+        font-size: 13px;
+    }
 }
